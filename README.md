@@ -37,7 +37,9 @@ to segment MRI scans into multiple tumor subregions.
   <li><b>Label 2:</b> Peritumoral edema</li>
   <li><b>Label 3:</b> GD-enhancing tumor</li>
 </ul>
-
+<p align="center">
+  <img src="images/overview.png" alt="Brain Tumor Segmentation Overview" width="700">
+</p>
 <hr>
 
 <h2 id="highlights">✨ Features</h2>
@@ -184,7 +186,9 @@ The inference pipeline processes full patient volumes, applies preprocessing, an
 <p>
 The project presents an advanced <b>Streamlit web application</b> designed for medical professionals and researchers to perform <b>brain tumor segmentation</b> without any coding expertise. It provides an intuitive interface for visualizing MRI data, running automated segmentation, and analyzing tumor regions in real-time.
 </p>
-
+<p align="center">
+  <img src="images/app-overview.png" alt="Brain Tumor Segmentation Overview" width="700">
+</p>
 <h3>💡 Application Workflow</h3>
 <ul>
   <li><b>1. Model Loading:</b> The application automatically detects available model checkpoint files (<code>.pth</code>) in the working directory. Select your trained model from the dropdown list and click <b>“🔄 Load Model”</b> to initialize the 3D U-Net for inference.</li>
@@ -204,7 +208,9 @@ The project presents an advanced <b>Streamlit web application</b> designed for m
       <li><b>Stride Ratio:</b> Set overlap between patches (0.3–0.8). Higher overlap improves quality but increases processing time.</li>
     </ul>
   </li>
-
+<p align="center">
+  <img src="images/file-upload.png" alt="Brain Tumor Segmentation Overview" width="700">
+</p>
   <li><b>4. Running Segmentation:</b> Click <b>“🚀 Run Segmentation”</b> to start the inference process. A progress bar provides real-time updates. The complete brain volume is typically processed in under one minute.</li>
 
   <li><b>5. Results Visualization:</b> Navigate through segmented slices interactively using a slider. Choose between:
@@ -221,7 +227,9 @@ The project presents an advanced <b>Streamlit web application</b> designed for m
     </ul>
   </li>
 </ul>
-
+<p align="center">
+  <img src="images/results.png" alt="Brain Tumor Segmentation Overview" width="700">
+</p>
 <h3>⚡ Web Application Features</h3>
 <ul>
   <li>🖼️ <b>Advanced Visualization:</b> Multi-modal MRI display with transparent segmentation overlays and interactive navigation. Works seamlessly across desktop, tablet, and mobile devices.</li>
@@ -262,7 +270,9 @@ The project presents an advanced <b>Streamlit web application</b> designed for m
   <li><b>Processing Time:</b> Around 1 minute per patient during inference</li>
   <li><b>Patch Strategy:</b> 50% overlap yields optimal segmentation quality</li>
 </ul>
-
+<p align="center">
+  <img src="images/loss per epoch.png" alt="Brain Tumor Segmentation Overview" width="700">
+</p>
 
 <hr>
 
